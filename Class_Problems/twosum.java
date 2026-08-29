@@ -1,35 +1,23 @@
 import java.util.Scanner;
 
-public class twosum {
+public class TwoSum {
+    static int[] twoSum(int[] nums, int target) {
+        for (int i = 0; i < nums.length; i++)
+            for (int j = i + 1; j < nums.length; j++)
+                if (nums[i] + nums[j] == target)
+                    return new int[]{i, j};
+        return new int[]{};
+    }
+
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-
-        System.out.print("How many values do you want to enter? ");
-        int size = input.nextInt();
-        int[] nums = new int[size];
-
-        for (int i = 0; i < size; i++) {
-            System.out.print("Enter value " + (i + 1) + ": ");
-            nums[i] = input.nextInt();
-        }
-
-        System.out.print("Enter target value: ");
-        int target = input.nextInt();
-        boolean found = false;
-
-        for (int i = 0; i < size; i++) {
-            for (int j = i + 1; j < size; j++) {
-                if (nums[i] + nums[j] == target) {
-                    System.out.println("Indices: " + i + " and " + j);
-                    found = true;
-                }
-            }
-        }
-
-        if (!found) {
-            System.out.println("No two values add up to " + target + ".");
-        }
-
-        input.close();
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Array size: ");
+        int n = sc.nextInt();
+        int[] nums = new int[n];
+        for (int i = 0; i < n; i++) { System.out.print("nums[" + i + "]: "); nums[i] = sc.nextInt(); }
+        System.out.print("Target: ");
+        int[] res = twoSum(nums, sc.nextInt());
+        System.out.println("Indices: [" + res[0] + ", " + res[1] + "]");
+        sc.close();
     }
 }
