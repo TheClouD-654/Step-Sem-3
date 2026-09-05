@@ -3,7 +3,7 @@
 Java programming assignments for Semester 3.
 
 ## Branch Structure
-- `main` — This README
+- `main` — This contains only readme file
 - `develop` — Integration branch
 - `feature/Session_1` — Week 1 problems
 - `feature/Session_2` — Week 2 problems
