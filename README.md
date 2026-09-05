@@ -9,4 +9,5 @@ Java programming assignments for Semester 3.
 - `feature/Session_2` — Week 2 problems
 - `feature/Session_3` — Week 3 problems
 - `feature/Session_4` — Week 4 problems
-- `feature/Session_5` — Week 5 problems (coming soon)
+- `feature/Session_5` — Week 5 problems (Assignments coming soon)
+- `feature/Session_6` — Week 6 problems (Coming Soon)
