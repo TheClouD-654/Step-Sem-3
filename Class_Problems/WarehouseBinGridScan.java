@@ -35,3 +35,4 @@ public class WarehouseBinGridScan {
         scanner.close();
     }
 }
+

@@ -31,3 +31,4 @@ public class HeightLineUp {
         scanner.close();
     }
 }
+

@@ -26,3 +26,4 @@ public class InsertPosition {
         scanner.close();
     }
 }
+

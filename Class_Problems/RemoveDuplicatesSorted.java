@@ -38,3 +38,4 @@ public class RemoveDuplicatesSorted {
         scanner.close();
     }
 }
+

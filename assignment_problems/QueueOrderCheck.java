@@ -23,3 +23,4 @@ public class QueueOrderCheck {
         scanner.close();
     }
 }
+

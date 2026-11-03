@@ -26,3 +26,4 @@ public class TransactionDuplicateCheck {
         scanner.close();
     }
 }
+
